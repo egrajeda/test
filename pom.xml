@@ -37,6 +37,11 @@
 		</dependency>
 	</dependencies>
 
+    <scm>
+        <developerConnection>scm:git:git@github.com:rodrigo-nogues/test.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    
 	<repositories>		
         <repository>
             <id>thirdparty</id>
