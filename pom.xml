@@ -20,12 +20,12 @@
     <repository>
       <id>releases</id>
       <name>Releases</name>
-      <url>http://172.17.0.1:8082/nexus/content/repositories/releases</url>
+      <url>http://172.17.0.1:8081/nexus/content/repositories/releases</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>Snapshots</name>
-      <url>http://172.17.0.1:8082/nexus/content/repositories/snapshots</url>
+      <url>http://172.17.0.1:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
   <properties>
@@ -51,7 +51,7 @@
       </snapshots>
       <id>thirdparty</id>
       <name>3rd party</name>
-      <url>http://172.17.0.1:8082/nexus/content/repositories/thirdparty</url>
+      <url>http://172.17.0.1:8081/nexus/content/repositories/thirdparty</url>
     </repository>
     <repository>
       <snapshots>
@@ -59,7 +59,7 @@
       </snapshots>
       <id>releases</id>
       <name>Releases</name>
-      <url>http://172.17.0.1:8082/nexus/content/repositories/releases</url>
+      <url>http://172.17.0.1:8081/nexus/content/repositories/releases</url>
     </repository>
     <repository>
       <releases>
@@ -67,7 +67,7 @@
       </releases>
       <id>snapshots</id>
       <name>Snapshots</name>
-      <url>http://172.17.0.1:8082/nexus/content/repositories/snapshots</url>
+      <url>http://172.17.0.1:8081/nexus/content/repositories/snapshots</url>
     </repository>
   </repositories>
   <build>
