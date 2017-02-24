@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>1.4.2.RELEASE</version>
-    <relativePath></relativePath>
+    <relativePath />
   </parent>
   <groupId>com.example</groupId>
   <artifactId>demo</artifactId>
-  <version>2016.1.2.0-SNAPSHOT</version>
+  <version>2016.1.2.0</version>
   <name>demo</name>
   <description>Demo project for Spring Boot</description>
   <scm>
     <developerConnection>scm:git:https://github.com/egrajeda/test.git</developerConnection>
+    <tag>demo-2016.1.2.0</tag>
   </scm>
   <distributionManagement>
     <repository>
@@ -86,7 +86,7 @@
             <version>1.8.1</version>
           </dependency>
         </dependencies>
-        <configuration></configuration>
+        <configuration />
       </plugin>
     </plugins>
   </build>
